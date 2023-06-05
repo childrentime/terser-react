@@ -49,7 +49,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.scss$/,
+        test: /\.module.scss$/,
         use: [
           "isomorphic-style-loader",
           {
